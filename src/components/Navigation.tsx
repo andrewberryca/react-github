@@ -8,7 +8,7 @@ export function Navigation() {
                 GitHub Search
             </h3>
             <span>
-                <Link to = "/" className="mr-2">Home</Link>
+                <Link to = "/" className="mr-3">Home</Link>
                 <Link to = "/favourite">Favourite</Link>
             </span>
 
