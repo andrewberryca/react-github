@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {useLazyGetUserReposQuery, useSearchUsersQuery} from "../store/github/github.api";
 import {useDebounce} from "../hooks/debounce";
-import {RepoCard} from "../components/RepoCars";
+import {RepoCard} from "../components/RepoCards";
 
 export function HomePage() {
     const [search, setSearch] = useState('')
